@@ -5,8 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <header class="mb-10 mt-10">
+        <h1 class="text-4xl text-center text-sky-800">Lets Get Some Mooooooney!!!</h1>
+    </header>
+    <!-- all balance section -->
+    <section>
+        <div class="grid grid-cols-1 lg:grid-cols-3 w-9/12 gap-6  mx-auto">
+            <div class="bg-sky-700 rounded py-8 px-4">
+                <h4>Deposit</h4>
+                <p>$00</p>
+            </div>
+            <div class="bg-lime-500 rounded py-8 px-4">
+                <h4>Withdraw</h4>
+                <p>$00</p>
+            </div>
+            <div class="bg-teal-600 rounded py-8 px-4">
+                <h4>Balance</h4>
+                <p>$1240</p>
+            </div>
+        </div>
+    </section>
+    <!-- DEposit Money and WithDraw Money Section -->
+    <section class="mt-12">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 w-9/12 mx-auto">
+            <div class="bg-cyan-500">
+                <h1 class="text-2xl p-2">Please Deposit</h1>
+                <div class="flex flex-col items-start p-4">
+                    <input id="" class="w-9/12 p-2 rounded mb-4" type="text" name="" id="" placeholder="Amount You want to deposit">
+                    <button id="btn-submit" class=""><span class="bg-orange-400 rounded py-2 px-6">Deposit</span></button>
+                </div>
+            </div>
+            <div class="bg-indigo-600">
+                <h1 class="text-2xl p-2">Please Deposit</h1>
+                <div class="flex flex-col items-start p-4">
+                    <input id="" class="w-9/12 p-2 rounded mb-6" type="text" name="" id="" placeholder="Amount You want to deposit">
+                    <button id="btn-submit" class=""><span class="bg-orange-400 rounded py-2 px-6">Deposit</span></button>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
