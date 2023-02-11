@@ -16,7 +16,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 w-9/12 gap-6  mx-auto">
             <div class="bg-sky-700 rounded py-8 px-4">
                 <h4>Deposit</h4>
-                <p>$00</p>
+                <p>$<span id="total-deposit">00</span></p>
             </div>
             <div class="bg-lime-500 rounded py-8 px-4">
                 <h4>Withdraw</h4>
@@ -34,18 +34,19 @@
             <div class="bg-cyan-500">
                 <h1 class="text-2xl p-2">Please Deposit</h1>
                 <div class="flex flex-col items-start p-4">
-                    <input id="" class="w-9/12 p-2 rounded mb-4" type="text" name="" id="" placeholder="Amount You want to deposit">
-                    <button id="btn-submit" class=""><span class="bg-orange-400 rounded py-2 px-6">Deposit</span></button>
+                    <input class="w-9/12 p-2 rounded mb-4" type="text" name="" id="field-deposit" placeholder="Amount You want to deposit">
+                    <button id="btn-deposit" class=""><span class="bg-orange-400 rounded py-2 px-6">Deposit</span></button>
                 </div>
             </div>
             <div class="bg-indigo-600">
-                <h1 class="text-2xl p-2">Please Deposit</h1>
+                <h1 class="text-2xl p-2">Please Withdraw</h1>
                 <div class="flex flex-col items-start p-4">
-                    <input id="" class="w-9/12 p-2 rounded mb-6" type="text" name="" id="" placeholder="Amount You want to deposit">
-                    <button id="btn-submit" class=""><span class="bg-orange-400 rounded py-2 px-6">Deposit</span></button>
+                    <input id="" class="w-9/12 p-2 rounded mb-6" type="text" name="" id="" placeholder="Amount You want to Withdraw">
+                    <button id="btn-withdraw" class=""><span class="bg-orange-400 rounded py-2 px-6">Withdraw</span></button>
                 </div>
             </div>
         </div>
     </section>
+<script src="./moneypage.js"></script>
 </body>
 </html>
