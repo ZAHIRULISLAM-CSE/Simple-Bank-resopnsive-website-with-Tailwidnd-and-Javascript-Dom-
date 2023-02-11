@@ -20,11 +20,11 @@
             </div>
             <div class="bg-lime-500 rounded py-8 px-4">
                 <h4>Withdraw</h4>
-                <p>$00</p>
+                <p>$<span id="total-withdraw">00</span></p>
             </div>
             <div class="bg-teal-600 rounded py-8 px-4">
                 <h4>Balance</h4>
-                <p>$1240</p>
+                <p>$<span id="total-balance">1240</span></p>
             </div>
         </div>
     </section>
@@ -41,7 +41,7 @@
             <div class="bg-indigo-600">
                 <h1 class="text-2xl p-2">Please Withdraw</h1>
                 <div class="flex flex-col items-start p-4">
-                    <input id="" class="w-9/12 p-2 rounded mb-6" type="text" name="" id="" placeholder="Amount You want to Withdraw">
+                    <input id="field-withdraw" class="w-9/12 p-2 rounded mb-6" type="text" name="" placeholder="Amount You want to Withdraw">
                     <button id="btn-withdraw" class=""><span class="bg-orange-400 rounded py-2 px-6">Withdraw</span></button>
                 </div>
             </div>
